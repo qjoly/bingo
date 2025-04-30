@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{.Title}}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>{{.Title}}</h1>
+        <p>{{.Phrase}}</p>
+        
+        <div class="bingo-grid">
+            {{range $i, $row := .Grid}}
+                <div class="bingo-row">
+                    {{range $j, $cell := $row}}
+                        <div class="bingo-cell" onclick="toggleCell(this)">{{$cell}}</div>
+                    {{end}}
+                </div>
+            {{end}}
+        </div>
+        
+        <button onclick="window.location.href='/generate'">Nouvelle Grille</button>
+    </div>
+    
+    <script src="/static/script.js"></script>
+</body>
+</html>
