@@ -28,3 +28,4 @@ Le Kubernetes managé de Clever Cloud
 "Envoyez les subs pour qu'on puisse partir en vacances avec Quentin"
 On essaye un dernier truc avant d'abandonner
 Terrafou
+Une référence à Kaamelott
