@@ -1,5 +1,5 @@
 FROM golang:1.23.4-bookworm as builder
-COPY go.mod go.sum /app/
+COPY go.mod /app/
 WORKDIR /app
 RUN go mod tidy
 COPY . .
