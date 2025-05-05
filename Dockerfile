@@ -1,5 +1,5 @@
 FROM golang:1.23.4-bookworm as builder
-COPY go.mod /app/
+COPY go.mod phrases.txt templates static /app/
 WORKDIR /app
 RUN go mod tidy
 COPY . .
