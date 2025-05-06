@@ -6,7 +6,8 @@ Quelqu'un est flou
 "Et là ça marche... ah non !"
 Joseph dans les actu-news du début
 Un chat dans le stream
-"Avec DAPR ça aurait marché..."
+"Avec Kubevirt ça aurait marché..."
+"Avec DAPR ça aurait été plus simple..."
 "On a perdu Quentin/Joel"
 Discussion sur la météo en intro
 Leak des crédentials
@@ -27,3 +28,4 @@ Le Kubernetes managé de Clever Cloud
 "Envoyez les subs pour qu'on puisse partir en vacances avec Quentin"
 On essaye un dernier truc avant d'abandonner
 Terrafou
+Une référence à Kaamelott
