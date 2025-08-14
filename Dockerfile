@@ -1,4 +1,4 @@
-FROM golang:1.23.4-bookworm as builder
+FROM golang:1.25.0-bookworm as builder
 COPY go.mod /app/
 WORKDIR /app
 RUN go mod tidy
